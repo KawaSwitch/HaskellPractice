@@ -48,7 +48,7 @@ h3 :: (Bool -> a) -> (a, (Bool -> a))
 h3 x = (x True, x)
 
 --g1 :: Ord a => a -> (a -> Bool) -> Bool
-g1 x f = True < (f x)
+g1 x f = f x < (x > x)
 
 --g2 :: (Num a, Num b) => (a -> b) -> a -> b -> [b]
 g2 f x y = [(f (x + 1)) + y]
