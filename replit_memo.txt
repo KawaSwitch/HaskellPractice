@@ -1,0 +1,9 @@
+repl.it上でHaskell練習するとき
+一番上にこれを書いておく
+
+module Main where
+
+main :: IO ()
+main = return ()
+
+
