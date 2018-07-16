@@ -1,0 +1,2 @@
+# HaskellPractice
+for haskell homework
