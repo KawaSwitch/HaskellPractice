@@ -7,3 +7,6 @@ main :: IO ()
 main = return ()
 
 
+中程のshareボタンを押すとShare Linkが表示される
+このリンクを貼って共有することができる
+アカウントを作ってなくてもOKらしい
